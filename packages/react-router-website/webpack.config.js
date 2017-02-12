@@ -38,9 +38,9 @@ module.exports = {
   ] : []),
 
   resolve: {
-    alias: {
-      'react-router-dom': path.resolve(__dirname, 'modules/ReactRouterDOMShim')
-    }
+    // alias: {
+    //   'react-router-dom': path.resolve(__dirname, 'modules/ReactRouterDOMShim')
+    // }
   },
 
   module: {

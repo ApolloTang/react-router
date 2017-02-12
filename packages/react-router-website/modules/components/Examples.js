@@ -7,6 +7,11 @@ import FakeBrowser from './FakeBrowser'
 import ScrollToMe from './ScrollToMe'
 
 const EXAMPLES = [
+  { name: 'Fundamental',
+    path: '/examples/Fundamental',
+    load: require('bundle?lazy!babel!../examples/Fundamental'),
+    loadSource: require('bundle?lazy!!prismjs?lang=jsx!../examples/Fundamental.js')
+  },
   { name: 'Basic',
     path: '/examples/basic',
     load: require('bundle?lazy!babel!../examples/Basic'),
